@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel Admin</title>
+  <link rel="stylesheet" href="CSS/admin.css">
+</head>
+<body>
+<header>
+    <button id="btn-logout" class="logout-btn">Cerrar sesión 🚪</button>
+    <button id="btn-back" class="back-btn">← Volver</button>
+</header>
+  <h1>Panel de Administración</h1>
+
+  <section>
+    <h2>Nuevo producto</h2>
+    <input id="nombre" placeholder="Nombre">
+    <input id="descripcion" placeholder="Descripción">
+    <input id="precio" type="number" placeholder="Precio">
+    <button id="btn-crear">Crear</button>
+  </section>
+
+  <section>
+    <h2>Productos</h2>
+    <div id="lista-productos"></div>
+  </section>
+
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
