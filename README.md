@@ -38,7 +38,8 @@ Su objetivo principal es **vender productos y conseguir clientes**, ofreciendo u
 
 ```bash
 git clone https://github.com/arturo398/Elixir-Caps-Web.git
-´´´
+```markdown
+
 ##Autor
 
 Arturo Gabriel Balbi Saldias
